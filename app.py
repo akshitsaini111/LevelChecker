@@ -5,7 +5,7 @@ import requests
 
 load_dotenv()
 
-Api = os.getenv("api")
+Api = "http://0.0.0.0:6969/llama/getLevel"
 
 # Title
 st.title("Check Question Level")
