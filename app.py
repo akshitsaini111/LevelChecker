@@ -3,7 +3,7 @@ import os
 import requests
 
 
-Api = "http://0.0.0.0:6969/llama/getLevel"
+Api = st.secrets["api"]
 
 # Title
 st.title("Check Question Level")
