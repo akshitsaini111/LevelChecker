@@ -1,9 +1,7 @@
 import streamlit as st
-from dotenv import load_dotenv
 import os
 import requests
 
-load_dotenv()
 
 Api = "http://0.0.0.0:6969/llama/getLevel"
 
